@@ -1,0 +1,4 @@
+The factor pattern allows for you to create objects with out knowing their concrete classes. This uses an Abstract Super class with a "create" method that each
+child class implements. The child classes then call the appropriate constructor. This also requires the objects being constructed to have a interface to ensure
+each has similar funtionality. In this case, Cats is the Interface that Lion and HouseCat share and Feline is the Constructor class. This pattern allows 
+you to easily and quickly add new objects to a heiracy with out having to worry about updating your code to construct the new object. 
