@@ -1,4 +1,4 @@
-package ilc.example.designPatterns.prototype;
+package example.designPatterns.prototype;
 
 public abstract class Shape{
     public int x;

@@ -1,4 +1,4 @@
-package ilc.example.designPatterns.factory;
+package example.designPatterns.factory;
 
 public class HouseCat implements Cats {
     public String pet(){return "pur pur";}

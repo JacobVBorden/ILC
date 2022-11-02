@@ -1,4 +1,4 @@
-package ilc.example.designPatterns.factory;
+package example.designPatterns.factory;
 
 public interface Cats {
     public String pet();

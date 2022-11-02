@@ -1,4 +1,4 @@
-package ilc.example.designPatterns.factory;
+package example.designPatterns.factory;
 
 public class felineLion extends Feline{
     @Override
