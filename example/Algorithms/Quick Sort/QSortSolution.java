@@ -1,3 +1,12 @@
+// Best case time complexity O(n log(n))
+// Worst case time complexity O(n^2). This happens if the pivot only swaps 1 value each time. 
+// Average of O(n log(n))
+
+// This is prefered for arrays vs merge sort as merge sort has a space complexity of O(n^2) and this has a space 
+//complexity of O(n). Quicksort is not prefered for linked list as it needs access to each indivual index so 
+// it would need to itterate through the enitre list each time. Merge sort does not have this issue and can be 
+// implemented without the extra space complexity. 
+
 public class QSortSolution{
 
     public void quicksort(int[] array){
